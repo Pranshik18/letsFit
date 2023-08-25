@@ -22,11 +22,21 @@ export const Styles = StyleSheet.create({
         fontSize: 26,
         paddingVertical : 10,
         color: colors.black,
-        fontWeight: '700'
+        fontWeight: '800'
     },
     headingDescription: {
         fontSize : 16,
         color: colors.grey,
-        fontWeight: '400'
+        fontWeight: '600',
+        paddingVertical: 6
+    },
+    progressButtonImage: {
+        height: 80,
+        width: 80
+    },
+    buttonView: {
+        position: 'absolute',
+        right: 20,
+        bottom: 20,
     }
 })
