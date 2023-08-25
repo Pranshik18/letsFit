@@ -4,7 +4,7 @@ import { Styles } from './style';
 import { assets } from '../../../assets';
 
 interface OnBoardScreenOne {
-
+    navigation : {navigate : (props : any)=> void;}
 }
 
 const OnBoardScreenOne = (props : OnBoardScreenOne) =>{
@@ -18,12 +18,10 @@ const OnBoardScreenOne = (props : OnBoardScreenOne) =>{
                     <Text style={Styles.headingText}>Track your goal</Text>
                     <Text style={Styles.headingDescription}>Don't worry if you have trouble determining your goals, We can help you determine your goals and track your goals.</Text>
                 </View>
-                <View>
-                    <TouchableOpacity>
-                        <Image source={assets.progress25Button}/>
-                    </TouchableOpacity>
-                </View>
             </View>
+                    <TouchableOpacity style={Styles.buttonView} onPress={()=>props.navigation.navigate('onBoardScreenTwo')}>
+                        <Image source={assets.progress25Button} style={Styles.progressButtonImage}/>
+                    </TouchableOpacity>
         </SafeAreaView>
     )
 }
