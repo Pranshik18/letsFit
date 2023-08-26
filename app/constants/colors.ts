@@ -4,4 +4,5 @@ export const colors = {
     lavendar: '#CC8FED',
     lightBlue: '#92A3FD',
     white: '#ffffff',
+    lightGrey: '#F7F8F8',
 }

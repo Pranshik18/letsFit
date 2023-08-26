@@ -25,14 +25,14 @@ export const Styles = StyleSheet.create({
         fontWeight: '800'
     },
     headingDescription: {
-        fontSize : 16,
+        fontSize : 14,
         color: colors.grey,
         fontWeight: '600',
         paddingVertical: 6
     },
     progressButtonImage: {
-        height: 80,
-        width: 80
+        height: 60,
+        width: 60
     },
     buttonView: {
         position: 'absolute',
