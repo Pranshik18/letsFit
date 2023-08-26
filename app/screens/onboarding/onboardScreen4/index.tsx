@@ -21,7 +21,7 @@ const OnBoardScreenFour = (props : OnBoardScreenFour) =>{
                 <Text style={Styles.headingDescription}>Improve the quality of your sleep with us, good quality sleep can bring a good mood in the morning.</Text>
             </View>
         </View>
-                <TouchableOpacity style={Styles.buttonView} onPress={()=>props.navigation.navigate('')}>
+                <TouchableOpacity style={Styles.buttonView} onPress={()=>props.navigation.navigate('registerPage')}>
                     <Image source={assets.progress100Button} style={Styles.progressButtonImage}/>
                 </TouchableOpacity>
     </SafeAreaView>

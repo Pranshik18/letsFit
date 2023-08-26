@@ -7,4 +7,10 @@ export const assets = {
     progress50Button : require('../assets/images/button2.png'),
     progress75Button : require('../assets/images/button3.png'),
     progress100Button : require('../assets/images/button4.png'),
+    profileIcon: require('../assets/images/Profile.png'),
+    messageIcon: require('../assets/images/Message.png'),
+    lockIcon: require('../assets/images/Lock.png'),
+    divider: require('../assets/images/divider.png'),
+    googleIcon: require('../assets/images/googleicon.png'),
+    facebookIcon: require('../assets/images/facebookicon.png'),
 }
