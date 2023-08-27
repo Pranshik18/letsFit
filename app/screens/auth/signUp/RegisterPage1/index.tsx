@@ -5,7 +5,9 @@ import { AppTextInput } from '../../../../components/TextInput';
 import { assets } from '../../../../assets';
 import CheckBox from '@react-native-community/checkbox';
 interface CreateAccountPage{
-
+    navigation : {
+        navigate: (props: any)=> void;
+    }
 }
 
 const CreateAccountPage = (props: CreateAccountPage)=>{
@@ -30,7 +32,7 @@ const CreateAccountPage = (props: CreateAccountPage)=>{
                 </View>
             </View>
             <View style={Styles.RegisterButtonView}>
-                    <TouchableOpacity style={Styles.RegisterButton}>
+                    <TouchableOpacity style={Styles.RegisterButton} onPress={()=>props.navigation.navigate('registerPageOne')}>
                         <Text style={Styles.registerText}>Register</Text>
                     </TouchableOpacity>
                 </View>

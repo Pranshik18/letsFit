@@ -6,6 +6,7 @@ import OnBoardScreenThree from '../screens/onboarding/onboardScreen3';
 import OnBoardScreenFour from '../screens/onboarding/onboardScreen4';
 import { WelcomeScreen } from '../screens/welcome';
 import CreateAccountPage from '../screens/auth/signUp/RegisterPage1';
+import CreateAccountInfoPage from '../screens/auth/signUp/RegisterPage2';
 
 interface AppNavigatorProps {
 
@@ -33,6 +34,7 @@ const AppNavigator = (props : AppNavigatorProps) =>{
                 <Stack.Screen name='onBoardScreenThree' component={OnBoardScreenThree}/>
                 <Stack.Screen name='onBoardScreenFour' component={OnBoardScreenFour}/>
                 <Stack.Screen name='registerPage' component={CreateAccountPage} />
+                <Stack.Screen name='registerPageOne' component={CreateAccountInfoPage} />
             </Stack.Navigator>
         </NavigationContainer>
     )

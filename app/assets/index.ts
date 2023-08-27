@@ -13,4 +13,8 @@ export const assets = {
     divider: require('../assets/images/divider.png'),
     googleIcon: require('../assets/images/googleicon.png'),
     facebookIcon: require('../assets/images/facebookicon.png'),
+    girlAvatar: require('../assets/images/girlAvatar.png'),
+    calendarIcon: require('../assets/images/Calendar.png'),
+    weightImage: require('../assets/images/ButtonKg.png'),
+    heightImage: require('../assets/images/ButtonCm.png'),
 }
