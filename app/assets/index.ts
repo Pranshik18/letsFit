@@ -13,4 +13,12 @@ export const assets = {
     divider: require('../assets/images/divider.png'),
     googleIcon: require('../assets/images/googleicon.png'),
     facebookIcon: require('../assets/images/facebookicon.png'),
+    girlAvatar: require('../assets/images/girlAvatar.png'),
+    calendarIcon: require('../assets/images/Calendar.png'),
+    weightImage: require('../assets/images/ButtonKg.png'),
+    heightImage: require('../assets/images/ButtonCm.png'),
+    exerciseAvatarOne: require('../assets/images/Avatar1.png'),
+    exerciseAvatarTwo: require('../assets/images/Avatar2.png'),
+    exerciseAvatarThree: require('../assets/images/Avatar3.png'),
+    groupAvatar: require('../assets/images/Group.png'),
 }

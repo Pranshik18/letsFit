@@ -1,26 +1,37 @@
 import {StyleSheet} from 'react-native';
-import { colors } from '../../../../constants/colors';
+import { colors } from '../../constants/colors';
+
 export const Styles = StyleSheet.create({
     mainView: {
         flex: 1,
-        backgroundColor: colors.white,
+        backgroundColor: colors.white
     },
-    healthTextView: {
+    image: {
+        width: 350,
+        height: 350
+    },
+    imageView: {
         alignItems: 'center',
+        marginVertical: 30,
+    },
+    contentView: {
         marginVertical: 20
     },
-    healthHeadingText: {
-        fontSize: 24,
+    userView: {
+        alignItems: 'center'
+    },
+    userNameText: {
+        fontSize: 22,
         fontWeight: '700',
         color: colors.black,
-        letterSpacing: 0.6,
-        paddingVertical: 10
+        letterSpacing: 0.5
     },
-    healthDescText: {
+    userNameDesc: {
+        fontSize: 14,
+        color: colors.grey,
         width: '60%',
         textAlign: 'center',
-        color: colors.grey,
-        letterSpacing: 0.5
+        marginVertical: 10
     },
     confirmButton: {
         position: 'absolute',
