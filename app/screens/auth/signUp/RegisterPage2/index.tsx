@@ -3,10 +3,12 @@ import { SafeAreaView, ScrollView, View, Text, Image, TouchableOpacity, TextInpu
 import { Styles } from './style';
 import { assets } from '../../../../assets';
 import { Dropdown } from 'react-native-element-dropdown';
-import Icon from 'react-native-vector-icons/Feather';
+import Icon from 'react-native-vector-icons/Ionicons';
 import DatePicker from 'react-native-date-picker';
 interface CreateAccountInfoPage{
-
+  navigation : {
+    navigate : (props: any)=> void;
+  }
 }
 
 
@@ -49,7 +51,7 @@ const CreateAccountInfoPage = (props: CreateAccountInfoPage) =>{
                         value={gender}
                         placeholder='Choose Gender'
                         renderLeftIcon={()=>(
-                            <Icon name='users' size={20} style={{marginRight: 10}} color='black'/>
+                            <Icon name='people' size={20} style={{marginRight: 10}} color='black'/>
                         )}
                     />
                 <TouchableOpacity onPress={() => setShowDatePicker(true)}>
@@ -82,7 +84,7 @@ const CreateAccountInfoPage = (props: CreateAccountInfoPage) =>{
                 <TextInput style={Styles.weightField} placeholder='Your Height'/>
                 <Image source={assets.heightImage} style={Styles.weightImage}/>
             </View>
-            <TouchableOpacity style={Styles.nextButton}>
+            <TouchableOpacity style={Styles.nextButton} onPress={()=>props.navigation.navigate('userInfoPage')}>
                 <Text style={Styles.nextText}>Next</Text>
             </TouchableOpacity>
                     </View>

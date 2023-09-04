@@ -17,4 +17,8 @@ export const assets = {
     calendarIcon: require('../assets/images/Calendar.png'),
     weightImage: require('../assets/images/ButtonKg.png'),
     heightImage: require('../assets/images/ButtonCm.png'),
+    exerciseAvatarOne: require('../assets/images/Avatar1.png'),
+    exerciseAvatarTwo: require('../assets/images/Avatar2.png'),
+    exerciseAvatarThree: require('../assets/images/Avatar3.png'),
+    groupAvatar: require('../assets/images/Group.png'),
 }
