@@ -4,7 +4,9 @@ import { Styles } from "./style";
 import { assets } from "../../assets";
 
 interface SuccessRegisteration {
-
+    navigation: {
+        navigate: (prop: any)=>void;
+    }
 }
 
 const SuccessRegisteration = (props : SuccessRegisteration) =>{
