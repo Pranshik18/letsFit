@@ -28,7 +28,7 @@ const UserRegisterInfo = (props : UserRegisterInfo)=>{
                     <FlatList data={HealthData} renderItem={renderItem} horizontal showsHorizontalScrollIndicator={false}/>
                 </View>
             </ScrollView>
-            <TouchableOpacity style={Styles.confirmButton} onPress={()=>props.navigation.navigate('SuccessRegister')}>
+            <TouchableOpacity style={Styles.confirmButton} onPress={()=>props.navigation.navigate('Login')}>
                     <Text style={Styles.confirmButtonText}>Confirm</Text>
                 </TouchableOpacity>
         </SafeAreaView>

@@ -3,7 +3,7 @@ import { colors } from "../../constants/colors";
 
 export const Styles = StyleSheet.create({
     TextInput: {
-        borderColor: colors.lightGrey,
+        borderColor: colors.lightBlue,
         borderWidth: 1,
         borderRadius: 16,
         marginVertical: 10,
