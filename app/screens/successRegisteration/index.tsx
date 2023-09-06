@@ -21,7 +21,7 @@ const SuccessRegisteration = (props : SuccessRegisteration) =>{
                     <Text style={Styles.userNameDesc}>You are all set now, let's reach your goals together with us.</Text>
                 </View>
             </View>
-            <TouchableOpacity style={Styles.confirmButton}>
+            <TouchableOpacity style={Styles.confirmButton} onPress={()=>props.navigation.navigate('Dashboard')}>
                 <Text style={Styles.confirmButtonText}>Go to Home</Text>
             </TouchableOpacity>
         </SafeAreaView>

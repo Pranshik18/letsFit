@@ -10,6 +10,7 @@ import CreateAccountInfoPage from '../screens/auth/signUp/RegisterPage2';
 import UserRegisterInfo from '../screens/auth/signUp/RegisterPage3';
 import SuccessRegisteration from '../screens/successRegisteration';
 import Login from '../screens/auth/login';
+import Dashboard from '../screens/dashboard';
 
 interface AppNavigatorProps {
 
@@ -41,6 +42,7 @@ const AppNavigator = (props : AppNavigatorProps) =>{
                 <Stack.Screen name='userInfoPage' component={UserRegisterInfo} />
                 <Stack.Screen name='SuccessRegister' component={SuccessRegisteration} />
                 <Stack.Screen name='Login' component={Login} />
+                <Stack.Screen name='Dashboard' component={Dashboard} />
             </Stack.Navigator>
         </NavigationContainer>
     )
