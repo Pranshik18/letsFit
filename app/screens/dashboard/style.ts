@@ -105,5 +105,26 @@ export const Styles = StyleSheet.create({
         fontWeight: '400',
         color: colors.white,
         paddingVertical: 4
+    },
+    activityStatusView: {
+        marginHorizontal: 20,
+        marginVertical: 10
+    },
+    activityStatusText: {
+        fontSize: 16,
+        fontWeight: '700',
+        color: colors.black
+    },
+    heartUserText: {
+        paddingHorizontal: 20,
+        color: colors.grey,
+        fontWeight: '400',
+        fontSize: 16
+    },
+    heartRateView: {
+        position: 'absolute',
+        zIndex: 9999999999,
+        top: 10,
+        left: 50
     }
 })
